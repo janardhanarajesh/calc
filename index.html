@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>calculator</title>
+</head>
+<body oncontextmenu="return false">
+	<div id="hst">
+		<button onclick="histo()">
+			 history
+		</button>
+	</div>
+	<center>
+	<div id="calculator">
+		<div id="input">
+		<input type="text" name="value" id="inp">
+		</div>
+		<div id="buttons">
+			<div id="row1">
+			<div class="button" onclick="putnum('1')">
+				1
+			</div>
+			<div class="button" onclick="putnum('2')">
+				2
+			</div>
+			<div class="button" onclick="putnum('3')">
+				3
+			</div>
+			<div class="button" onclick="putnum('+')">
++
+			</div>
+		</div>
+			<div id="row2">
+			<div class="button" onclick="putnum('4')">
+				4
+			</div>
+			<div class="button" onclick="putnum('5')">
+				5
+			</div>
+			<div class="button" onclick="putnum('6')">
+				6
+			</div>
+			<div class="button" onclick="putnum('-')">
+				-
+			</div>
+		</div>
+			<div id="row3">
+			<div class="button" onclick="putnum('7')">
+				7
+				</div>
+				<div class="button" onclick="putnum('8')">
+					8
+			</div>
+			<div class="button" onclick="putnum('9')">
+9
+			</div>
+			<div class="button" onclick="putnum('/')">
+/
+			</div>
+			</div>
+			<div id="row4">
+			<div class="button" onclick="putnum('**')">
+				^
+			</div>
+			<div class="button" onclick="putnum('0')">
+				0
+			</div>
+			<div class="button" onclick="putnum('.')">
+				.
+			</div>
+			<div class="button" onclick="putnum('*')">
+x
+			</div>
+		</div>
+
+		<div id="row5">
+			<div class="button" onclick="eva('=')">
+				=
+						</div>
+			<div class="button" onclick="eva('AC')">
+				AC
+			</div>
+			<div class="button" onclick="eva('<')">
+				<--
+			</div>
+			<div class="button" onclick="putnum('%')">
+				%
+			</div>
+		</div>
+		</div>
+	</div>
+</center>
+<script type="text/javascript" src="script.js"></script>
+<br/>
+<div style="color:white">developed by:<a href="https://www.instagram.com/scripting_coder/">scripting_coder</a></div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+#calculator{
+	height: 550px;
+	width: 400px;
+	background-color: lightgray;
+	margin-top:20px;
+	box-shadow: 2px 2px 4px black,1px 1px 2px white inset;
+	border-radius: 5px;
+}
+#input{
+	height: 130px;
+	width: 400px;
+}
+body{
+background: linear-gradient(to right,black,silver);
+
+}
+input{
+	height: 100px;
+	width:350px;
+	margin-top: 30px;
+	border: none;
+	font-size: 30px;
+	text-align: right;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px black inset,1px 1px 3px black;
+
+}
+#buttons{
+	height: 410px;
+	width: 400px;
+	margin-top: 10px;
+/*	background-color: red;*/
+	border-radius: 5px;
+}
+#row1{
+	height: 60px;
+	width: 400px;
+	margin-top: 20px;
+}
+#row2{
+	height: 60px;
+	width: 400px;
+	margin-top: 20px;
+
+}
+#row3{
+	height: 60px;
+	width: 400px;
+	margin-top: 20px;
+
+}
+#row4{
+	height: 60px;
+	width: 400px;
+	margin-top:20px;
+
+}
+#row5{
+	height: 60px;
+	width: 400px;
+	margin-top: 20px;
+
+}
+.button{
+	height: 60px;
+	width: 60px;
+	margin-left: 30px;
+	border-radius: 20px;
+	background-color: lightgray;
+	float: left;
+	box-shadow: 1px 1px 2px black;
+	cursor: pointer;
+	font-size: 35px;
+	padding-top: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+button{
+	height: 20px;
+	width: 50px;
+	margin-left: 20px;
+}
